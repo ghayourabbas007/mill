@@ -226,7 +226,7 @@ function seedIfEmpty() {
   DB.insert('customers', { name: 'Punjab Atta Center',  phone: '03001119988', address: 'Anarkali, Lahore',    type: 'dealer',    open_bal: 0,     credit_limit: 100000, is_active: true });
 
   // Settings
-  [['mill_name','Al-Rehman Flour Mill'],['mill_address','Industrial Area, Lahore'],
+  [['mill_name','Sardaryab Flour Mill'],['mill_address','Industrial Area, Lahore'],
    ['open_cash','150000'],['tax_no','NTN-1234567'],['fy_start','2024-07-01']]
     .forEach(([k, v]) => DB.insert('settings', { k, v }));
 
